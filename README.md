@@ -1,6 +1,8 @@
 # hcSource
 Game library I've been developing as I learn x86 asm and C. Folders with descriptions as follows:
 
+WARNING: YOU NEED DOSBOX OR A NATIVE DOS BASED OPERATING SYSTEM TO RUN THESE PROGRAMS
+
 BMP2GFX: Converts 24bit bmp files into simplified bitmaps
 
 USAGE:
@@ -23,14 +25,16 @@ TOOLS: Header files for sound, keyboard and timer drivers
 OUTTILE: Currently in beta testing, opens *.GFX files slices the binary image data into 20x20 tiles, and saves
 them in *.TLE files. BELOW IS THE KEYMAP
 
-A - Save as
-S - Save current file
-F2 - open *.GFX file
-C - place coord change at mouse position
-X - delete coord change at mouse position
-P - Load custom *.PAL file. Need to be a *.PAL file coverted from JASC format using the DOSPAL converter
+(A) - Save as
+(S) - Save current file
+(F2) - open *.GFX file
+(C) - place coord change at mouse position
+(X) - delete coord change at mouse position
+(P) - Load custom *.PAL file. Need to be a *.PAL file coverted from JASC format using the DOSPAL converter
 
-MB1 - place tile at mouse position
-MB2 - make mouse tile position solid
+(MB1) - place tile at mouse position
+(MB2) - make mouse tile position solid
+
+PONG: Game I made using some of the tools I threw together. Uses PC speakers for sound. Cute huh?
 
 Yes, I know it's a hot buggy mess. I uploaded this mostly to test my git abilities for Coding Boot Camp.
